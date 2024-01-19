@@ -1,0 +1,27 @@
+{
+  "name": "spl-token",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc && node build/src/index.js",
+    "compile": "tsc",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "fix": "gts fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "gts": "^5.2.0",
+    "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.89.1"
+  },
+  "engines": {
+    "node": ">=10.6.0"
+  }
+}
